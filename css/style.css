@@ -35,3 +35,15 @@ header {
 header>div {
     width: 50px;
 }
+
+@media screen and (max-width: 400px){
+    header{
+        margin-left: 8%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    a{
+        margin-bottom: 30%;
+    }
+}
