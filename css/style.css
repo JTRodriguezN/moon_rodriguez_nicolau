@@ -1,7 +1,10 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
-    background-color: #03045e;
+    background-image: url('../img/moon.jpg');
+    background-size: cover;
+    background-position: top center;
+    color: #fff;
 }
 
 a {
@@ -13,7 +16,7 @@ a {
 
 a:hover{
     cursor: pointer;
-    background-color: #0077b6
+    background-color: #0077b6;
 }
 
 .flex {
@@ -25,11 +28,25 @@ a:hover{
     justify-content: center;
 }
 
+.botom{
+    color: #fff;
+    border-color: #03045e;
+    background-color: #03045e;
+    cursor: pointer;
+}
+
+div{
+    border-color: #03045e;
+    background-color: rgba(#0077b6.8);
+}
+
 header {
     padding: 40px;
     height: 50px;
     flex-wrap: wrap;
     margin-left: 30%;
+    margin-right: 25%;
+    background-color: #03045e;
 }
 
 header>div {
